@@ -48,7 +48,6 @@ ctx.lineTo(10, 110);
 ctx.lineTo(-10, 125);
 ctx.fillStyle="#8B4513";
 ctx.fill();
-ctx.strokeStyle ="black";
 ctx.stroke();
 
 ctx.beginPath();
@@ -88,5 +87,105 @@ ctx.moveTo(670, 125);
 ctx.lineTo(670, 200);
 ctx.moveTo(710, 125);
 ctx.lineTo(710, 200);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(752,0);
+ctx.lineTo(752, 500);
+ctx.lineTo(1250, 500);
+ctx.lineTo(1250,0);
+ctx.fillStyle ="#696969";
+ctx.fill();
+
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(752, 300);
+ctx.lineTo(1001, 100);
+ctx.lineTo(1250, 300);
+ctx.lineTo(1250, 0);
+ctx.lineTo(752, 0);
+ctx.lineTo(752, 300);
+ctx.fillStyle ="	#363636";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(981, 250);
+ctx.lineTo(1021, 250);
+ctx.lineTo(1021, 200);
+ctx.lineTo(1061,200);
+ctx.lineTo(1061, 180);
+ctx.lineTo(1021, 180);
+ctx.lineTo(1021, 150);
+ctx.lineTo(981, 150);
+ctx.lineTo(981, 180);
+ctx.lineTo(941, 180);
+ctx.lineTo(941, 200);
+ctx.lineTo(981, 200);
+ctx.lineTo(981, 250);
+ctx.fillStyle = "#1C1C1C";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(961, 300);
+ctx.arc(1001, 300, 40, 0, Math.PI * 2, true);
+ctx.fillStyle = "	#808080";
+ctx.fill();
+ctx.stroke();
+
+ctx.moveTo(1001, 260);
+ctx.lineTo(1001, 340);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(941, 500);
+ctx.lineTo(941, 400);
+ctx.lineTo(1061, 400);
+ctx.lineTo(1061, 500);
+ctx.moveTo(1001, 400);
+ctx.lineTo(1001, 500);
+ctx.fillStyle = "#8B4513";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(991, 450, 5, 0, Math.PI * 2, true);
+ctx.arc(1011, 450, 5, 0, Math.PI * 2, true);
+ctx.fillStyle ="black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(752, 501);
+ctx.lineTo(1250,501);
+ctx.lineTo(1250,1100);
+ctx.lineTo(752,1100);
+ctx.lineTo(752,501);
+ctx.fillStyle = "#696969";
+ctx.fill();
 ctx.strokeStyle = "black";
 ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(820, 541);
+ctx.lineTo(1188, 541);
+ctx.lineTo(1188, 1060);
+ctx.lineTo(820, 1060);
+ctx.lineTo(820,  541);
+ctx.fillStyle="black";
+ctx.fill();
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(991, 551);
+ctx.lineTo(1011,551);
+ctx.lineTo(1011, 1050);
+ctx.lineTo(991, 1050);
+ctx.lineTo(991,551);
+ctx.fillStyle="	#DCDCDC";
+ctx.fill();
+ctx.stroke();
+
+
+
