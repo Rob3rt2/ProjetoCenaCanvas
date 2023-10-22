@@ -7,6 +7,8 @@ ctx.canvas.height = window.innerHeight;
 
 
 
+
+
 /cerca esquerda/
 ctx.beginPath();
 ctx.moveTo(0, 200);
@@ -280,6 +282,7 @@ ctx.lineTo(1851, 200);
 ctx.strokeStyle = "black";
 ctx.stroke();
 
+/furos cerca/
 ctx.moveTo(1840,145);
 ctx.arc(1831, 145, 7, 0, Math.PI * 2, true);
 ctx.moveTo(660, 160);
@@ -288,9 +291,7 @@ ctx.moveTo(254, 180);
 ctx.arc(251, 180, 4, 0, Math.PI * 2, true);
 ctx.moveTo(1354, 130);
 ctx.arc(1351, 130, 6, 0, Math.PI * 2, true);
-ctx.moveTo(1554, 195);
-ctx.arc(1551, 195, 5.6, 0, Math.PI * 2, true);
-ctx.fillStyle ="#228B22";
+ctx.fillStyle ="#008000";
 ctx.fill();
 ctx.stroke();
 
@@ -403,12 +404,67 @@ ctx.lineTo(340, 710);
 ctx.lineTo(320, 770);
 ctx.lineTo(310, 790);
 ctx.lineTo(340, 800);
-ctx.fillStyle ="	#1C1C1C";
+ctx.fillStyle ="#1C1C1C";
 ctx.fill();  
-ctx.stroke();  
+ctx.stroke();
+
+/translate/
+ctx.beginPath();
+ctx.translate(1770, -20);
+ctx.fillStyle = "#8B4513";
+ctx.fillRect(0,0, 100,50);
+ctx.stroke();
 
 
+ctx.setTransform(1,0,0,1,0,0);
+
+ctx.fillStyle = "#D2691E";
+ctx.fillRect(20, -20, 100, 50); 
+
+ctx.closePath();
+
+/rotate/
+ctx.beginPath();
 
 
+ctx.fillStyle = "#8B4513";
+ctx.fillRect(100, 230, 15, 60);
 
+ctx.translate(300, 250);
+ctx.rotate(Math.PI / 2);
+ctx.translate(-300, -250);
+
+ctx.fillStyle = "#A0522D";
+ctx.fillRect(290, 418, 15, 50);
+ctx.closePath();
+
+/personagem/
+ctx.beginPath();
+var img = document.getElementById("nos");
+img.src ='img/stop.png';
+let imgRotation = Math.PI * 7/4.7
+let posX =370
+let posY = 600
+let velocidade =50
+img.onload = function(){
+	ctx.drawImage(img,posX,posY);
+
+}
+ 
+ 
+ 
+ctx.rotate(imgRotation);
+
+window.addEventListener('keydown',(event)=>{
+		if(event.keyCode == 65){
+			posX-=velocidade
+		}else if(event.keyCode == 68){
+			posX+=velocidade
+		}else if(event.keyCode == 87){
+			posY-=velocidadew
+		}else if(event.keyCode == 83){
+			posY+=velocidade
+		}
+		
+ })
 
