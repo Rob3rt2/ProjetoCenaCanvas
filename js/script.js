@@ -9,6 +9,7 @@ ctx.canvas.height = window.innerHeight;
 
 
 
+
 /cerca esquerda/
 ctx.beginPath();
 ctx.moveTo(0, 200);
@@ -408,7 +409,17 @@ ctx.fillStyle ="#1C1C1C";
 ctx.fill();  
 ctx.stroke();
 
-/translate/
+
+/transform/
+ctx.beginPath();
+ctx.transform(1, 0, -1.4, 1,0,0);
+ctx.fillRect(940, 0, 100,100)
+
+ctx.transform(1, 0, 2.8, 1, 0,0);
+ctx.fillRect(940, 0, 100,100)
+
+
+//translate//
 ctx.beginPath();
 ctx.translate(1770, -20);
 ctx.fillStyle = "#8B4513";
@@ -436,7 +447,32 @@ ctx.translate(-300, -250);
 
 ctx.fillStyle = "#A0522D";
 ctx.fillRect(290, 418, 15, 50);
-ctx.closePath();
+
+/clippingPath/
+ctx.beginPath();
+    ctx.rect(100, 150, 200, 20);
+    ctx.rect(150, 100, 20, 130);
+    ctx.closePath();
+
+    // Defina o clipping path
+    ctx.clip();
+
+    // Preencha o fundo do canvas
+    ctx.fillStyle = '#8B4513';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Limpe o clipping path
+    ctx.restore();
+
+    // Desenhe as linhas da cruz
+    ctx.strokeStyle = '#D2691E';
+    ctx.lineWidth = 5;
+    ctx.beginPath();
+    ctx.moveTo(100, 150);
+    ctx.lineTo(300, 150);
+    ctx.moveTo(150, 100);
+    ctx.lineTo(150, 300);
+    ctx.stroke();
 
 /personagem/
 ctx.beginPath();
