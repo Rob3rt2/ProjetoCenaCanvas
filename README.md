@@ -5,6 +5,11 @@ A cena contém um cenário e nosso personagem principal que explora livremente o
 # Diagrama de Classe - Canvas
 ![Diagrama de Classe Canvas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/367239e1-cdc4-471f-978d-f66866466811)
 
+# GitBash
+Disponível um dos códigos utilizados para fazer o commit no GitBash.
+
+![gitbash](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/a2c8b1d9-5189-4d85-922e-92853aa1d06c)
+
 # Cenário
 ![Cenario com Player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/21c011b0-9129-4f25-b4cd-6450c5cc40f4)
 
