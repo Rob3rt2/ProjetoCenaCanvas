@@ -22,7 +22,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 - Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
 
-**- Adicionando igreja, seus detalhes (contém Script do mesmo).**
+**- Adicionando igreja e seus detalhes (contém Script do mesmo).**
 
 ![Cerca e Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/edfa29d4-733a-4208-86c8-8658af3c27a4)
 
@@ -113,7 +113,7 @@ Utilizamos para fazer o desenho em X no telhado da igreja, localizado na parte s
 ![Script Transform](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/55e7860c-656c-46a2-aed3-c4a5656d3036)
 
 # Clipping Path 
-Optamos por fazer um recorde na cena em formato de cruz, localizado no canto superior esquerdo próximo a igreja.
+Optamos por fazer um recorde na cena em formato de cruz, localizado  na cerca no canto superior esquerdo próximo a igreja.
 
 ![clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2855745e-c40d-4dd0-8692-21a414c9171a)
 
@@ -121,8 +121,15 @@ Optamos por fazer um recorde na cena em formato de cruz, localizado no canto sup
 
 ![Script Clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/905ab47c-9bd9-4695-91e6-e9f070b23c0e)
 
+# Movimentação do Player 
+Avisos: A movimentação do Player apenas funciona quando o código do cenário não esta habilitado. Sua movimentação está funcionando pelas Teclas de Direção ou Arrows Keys. 
 
+**- Script**
 
+![Script move player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/206815df-6710-428e-9efe-94271e03c2ad)
+
+# Escale (Escala)
+Aviso: Não foi possível adicionar o escale em nosso projeto. 
 
 
 
