@@ -1,5 +1,5 @@
 # Projeto Cena Canvas
-Esse projeto é uma cena criada no canvas utilizando JavaScript. Neste repositório, estão os arquivos para o projeto da cena no Canvas, contendos elementos pedidos e ensinados em aula. Nossa criação se baseia no jogo anterior que criamos (https://github.com/LehLapa/HeavenAndBack-LP. Heaven And Back - LP) na Game Engine Unity. 
+Esse projeto é uma cena criada no canvas utilizando JavaScript. Neste repositório, estão os arquivos para o projeto da cena no Canvas, contendos elementos pedidos e ensinados em aula. Nossa criação se baseia no jogo anterior que criamos (https://github.com/LehLapa/HeavenAndBack-LP) Heaven And Back - LP na Game Engine Unity. 
 A cena contém um cenário e nosso personagem principal que explora livremente o espaço. O canvas apresenta conceitos de Translação, Rotação, Escala, Transform e Clipping Path.
 # Criadores: Letícia Lapa e Robert Caio 
 # Diagrama de Classe - Canvas
