@@ -91,18 +91,39 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 # Iniciando Conceitos 
 
-# Rotação
+# Rotate (Rotação)
 Nesse momento, vamos inicar o conceito de rotação para movimentar a cruz menor no canto superior esquerdo da tela.
 
 **- Script**
 
 ![Script Rotate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/8066c85d-e4c8-4d61-b6d9-117ec3477870)
 
-# Translação
+# Translate (Translação)
 Nesse recurso, vamos inicar o conceito de translação para movimentar os quadrados localizados na extremidades do canto superior do canvas.
 
 **- Script**
 
 ![Script Translate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/160929fd-0e12-4b85-8c6a-f405afe2c3fa)
+
+# Transform (Transformação)
+Utilizamos para fazer o desenho em X no telhado da igreja, localizado na parte superior do canvas.
+
+**- Script**
+
+![Script Transform](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/55e7860c-656c-46a2-aed3-c4a5656d3036)
+
+# Clipping Path 
+Optamos por fazer um recorde na cena em formato de cruz, localizado no canto superior esquerdo próximo a igreja.
+
+![clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2855745e-c40d-4dd0-8692-21a414c9171a)
+
+**- Script**
+
+![Script Clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/905ab47c-9bd9-4695-91e6-e9f070b23c0e)
+
+
+
+
+
 
 
