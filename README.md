@@ -9,7 +9,7 @@ A cena contém um cenário e nosso personagem principal que explora livremente o
 ![Cenario com Player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/21c011b0-9129-4f25-b4cd-6450c5cc40f4)
 
 # Introdução ao desenvolvimento da criação do cenário
-Para a criação do cenário, fizemos as alterações do background para a cor verde, representando nossa grama. Assim iniciamos, fizemos os scripts para desenhos da cerca, igraja, asfalto, árvores, pedras e seus respectivos detalhes.
+Para a criação do cenário, fizemos as alterações do background para a cor verde, representando nossa grama. Assim iniciamos, fizemos os scripts para desenhos da cerca, igreja, asfalto, árvores, pedras e seus respectivos detalhes.
 **- Cerca e seu Script para criação.**
 
 ![Cerca](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/18822a88-03a1-4df1-ace2-f87f343f4b5b)
@@ -20,7 +20,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 ![Cenário - Linha Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/6f73478f-3885-4f2d-af43-4a391aaf8e86)
 
-- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
+- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores, troncos e maior parte dos elementos que compõe a cena.
 
 **- Adicionando igreja e seus detalhes (contém Script do mesmo).**
 
