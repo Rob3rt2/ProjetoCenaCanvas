@@ -122,14 +122,18 @@ Optamos por fazer um recorde na cena em formato de cruz, localizado  na cerca no
 ![Script Clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/905ab47c-9bd9-4695-91e6-e9f070b23c0e)
 
 # Movimentação do Player 
-Avisos: A movimentação do Player apenas funciona quando o código do cenário não esta habilitado. Sua movimentação está funcionando pelas Teclas de Direção ou Arrows Keys. 
+**Avisos:** A movimentação do Player apenas funciona quando o código do cenário não esta habilitado. Sua movimentação está funcionando pelas Teclas de Direção ou Arrows Keys. 
 
 **- Script**
 
 ![Script move player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/206815df-6710-428e-9efe-94271e03c2ad)
 
-# Escale (Escala)
-Aviso: Não foi possível adicionar o escale em nosso projeto. 
+# Scale (Escala)
+**Aviso:** Fizemos os códigos e adicionamos em nosso projeto, mas não houve funcionamento e não encontramos o motivo. Estamos estudando o problema para resolver o mesmo.
+
+**- Script**
+
+![script scale](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/6a4adeba-875a-4924-8a76-c01a074ddbcf)
 
 
 
