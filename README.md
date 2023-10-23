@@ -77,4 +77,5 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 Nesse momento, vamos inicar o conceito de de rotação para movimentos de algumas formas no canvas. 
 
 **- Script**
+
 ![Script Rotate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3209f49c-e36c-4074-a0c8-0a4caf9098cf)
