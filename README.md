@@ -11,7 +11,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 **- Cerca e seu Script para criação.**
 
  ![Cerca](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/5e256e0b-43eb-47d4-aa91-75ea5901f365)
-**- Script.**
+**- Script**
  
 ![Cenário - Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/341b19de-7c4a-4c71-a9de-4a9a5c02d645)
 ![Cenário - Linha Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/68cbc060-f296-4298-9a97-12ec9bacb758)
@@ -20,7 +20,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 ![Cerca e Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/54c27f82-e2d3-4191-b93a-ce51c8869dac)
 
-**-Script.**
+**-Script**
 
 ![Cenário Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/38816f7c-a63c-4116-852c-cad51801f2ea)
 
@@ -36,10 +36,45 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 ![Cenário - Detalhes Janelas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f69c7ea0-9283-4335-bb59-ad9b5c0968a0)
 
-
-- Complementando cenário com asfalto e detalhes (contém Script do mesmo).
+**- Complementando cenário com asfalto e detalhes (contém Script do mesmo).**
+ 
 ![Cerca, Igreja e asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f00c63f9-6efc-4e08-968e-82cebe8ea136)
-- Adicionando árvores e finalizando (contém Script do mesmo).
+
+**- Scripts**
+
+![Cenário - Asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/50e53930-280c-41fb-995b-a02b852b962e)
+
+![Cenário - Calçada](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3cace006-d507-4975-942e-363c7b6f607b)
+
+![Cenário = Faixa na Rua](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3540a07b-843a-4d28-b6e6-2d87c1595f35)
+
+![Cenário - Cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/8ce31a8d-c87e-4c9c-8c97-114e38412d19)
+
+![Cenário - Linha cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f6e96345-034e-4001-8c48-0536564ab9ce)
+
+**- Adicionando árvores e finalizando (contém Script do mesmo).**
+
 ![Cenario com arvores](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/9a0a8b43-6f89-4b8b-9a4c-b721c283703d)
-- Finalizando (contém Script do mesmo).
+
+**- Scripts**
+
+![Cenário - Tronco](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/1869812f-2fab-495b-b246-46184dcb9912)
+
+![Cenário - Folhas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/e3c7ada2-94f4-4f26-ba98-7a3c2994bbe9)
+
+**- Finalizando (contém Script do mesmo).**
+
  ![Cenario finalizando](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/d561f4c8-ae4f-4242-a34d-90ac9dca6612)
+
+ **- Scripts**
+
+![Cenário - Pedras](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/24810c09-e034-4c8f-8ff9-dbe20e5dfa09)
+
+![Cenário - Furos Detalhes](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2a5fd4cf-783e-44f0-812f-cd927ed90d4e)
+
+# Iniciando Conceitos 
+
+Nesse momento, vamos inicar o conceito de de rotação para movimentos de algumas formas no canvas. 
+
+**- Script**
+![Script Rotate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3209f49c-e36c-4074-a0c8-0a4caf9098cf)
