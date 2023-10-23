@@ -9,8 +9,7 @@ ctx.canvas.height = window.innerHeight;
 
 
 
-
-/cerca esquerda/
+//cerca esquerda//
 ctx.beginPath();
 ctx.moveTo(0, 200);
 ctx.lineTo(750, 200);
@@ -57,7 +56,7 @@ ctx.fillStyle="	#696969";
 ctx.fill();
 ctx.stroke();
 
-/linhas da cerca esquerda/
+//linhas da cerca esquerda//
 ctx.beginPath();
 ctx.moveTo(30, 125);
 ctx.lineTo(30, 200);
@@ -97,7 +96,7 @@ ctx.moveTo(710, 125);
 ctx.lineTo(710, 200);
 ctx.stroke();
 
-/igreja/
+//igreja//
 ctx.beginPath();
 ctx.moveTo(752,0);
 ctx.lineTo(752, 500);
@@ -107,7 +106,7 @@ ctx.fillStyle ="#696969";
 ctx.fill();
 ctx.stroke();
 
-/telhado da igreja/
+//telhado da igreja//
 ctx.beginPath();
 ctx.moveTo(752, 300);
 ctx.lineTo(1001, 100);
@@ -119,7 +118,7 @@ ctx.fillStyle ="	#363636";
 ctx.fill();
 ctx.stroke();
 
-/cruz da igreja/
+//cruz da igreja//
 ctx.beginPath();
 ctx.moveTo(981, 250);
 ctx.lineTo(1021, 250);
@@ -138,7 +137,7 @@ ctx.fillStyle = "#1C1C1C";
 ctx.fill();
 ctx.stroke();
 
-/janela da igreja/
+//janela da igreja//
 ctx.beginPath();
 ctx.moveTo(961, 300);
 ctx.arc(1001, 300, 40, 0, Math.PI * 2, true);
@@ -146,12 +145,12 @@ ctx.fillStyle = "	#808080";
 ctx.fill();
 ctx.stroke();
 
-/divisoria da janela/
+//divisoria da janela//
 ctx.moveTo(1001, 260);
 ctx.lineTo(1001, 340);
 ctx.stroke();
 
-/porta da igreja/
+//porta da igreja//
 ctx.beginPath();
 ctx.moveTo(941, 500);
 ctx.lineTo(941, 400);
@@ -163,14 +162,14 @@ ctx.fillStyle = "#8B4513";
 ctx.fill();
 ctx.stroke();
 
-/maaçaneta da porta/
+//maaçaneta da porta//
 ctx.beginPath();
 ctx.arc(991, 450, 5, 0, Math.PI * 2, true);
 ctx.arc(1011, 450, 5, 0, Math.PI * 2, true);
 ctx.fillStyle ="black";
 ctx.fill();
 
-/calçada/
+//calçada//
 ctx.beginPath();
 ctx.moveTo(752, 501);
 ctx.lineTo(1250,501);
@@ -182,7 +181,7 @@ ctx.fill();
 ctx.strokeStyle = "black";
 ctx.stroke();
 
-/asfalto/
+//asfalto//
 ctx.beginPath();
 ctx.moveTo(820, 541);
 ctx.lineTo(1188, 541);
@@ -193,7 +192,7 @@ ctx.fillStyle="black";
 ctx.fill();
 ctx.stroke();
 
-/faixa da rua/
+//faixa da rua//
 ctx.beginPath();
 ctx.moveTo(991, 551);
 ctx.lineTo(1011,551);
@@ -204,7 +203,7 @@ ctx.fillStyle="	#DCDCDC";
 ctx.fill();
 ctx.stroke();
 
-/cerca direita/
+///cerca direita//
 ctx.beginPath();
 ctx.moveTo(1252, 200);
 ctx.lineTo(1252, 125);
@@ -248,7 +247,7 @@ ctx.fillStyle="#696969";
 ctx.fill();
 ctx.stroke();
 
-/linha da cerca direita/
+//linha da cerca direita//
 ctx.beginPath();
 ctx.moveTo(1291, 125);
 ctx.lineTo(1291, 200);
@@ -283,7 +282,7 @@ ctx.lineTo(1851, 200);
 ctx.strokeStyle = "black";
 ctx.stroke();
 
-/furos cerca/
+//furos cerca//
 ctx.moveTo(1840,145);
 ctx.arc(1831, 145, 7, 0, Math.PI * 2, true);
 ctx.moveTo(660, 160);
@@ -296,7 +295,7 @@ ctx.fillStyle ="#008000";
 ctx.fill();
 ctx.stroke();
 
-/codigo para tronco das arvores/
+//codigo para tronco das arvores//
 ctx.beginPath();
 ctx.moveTo(220, 500);
 ctx.lineTo(250, 540);
@@ -335,7 +334,7 @@ ctx.fillStyle ="#8B4513";
 ctx.fill();
 ctx.stroke();
 
-/folhas das arvores/
+//folhas das arvores//
 ctx.beginPath();
 ctx.moveTo(220, 485);
 ctx.quadraticCurveTo(300, 610, 410, 480);
@@ -368,7 +367,7 @@ ctx.fillStyle ="#008000";
 ctx.fill();
 ctx.stroke();
 
-/pedras da cena/
+//pedras da cena//
 ctx.beginPath();
 ctx.moveTo(1420, 790);
 ctx.lineTo(1480, 880);
@@ -410,13 +409,16 @@ ctx.fill();
 ctx.stroke();
 
 
-/transform/
+
+//transform//
 ctx.beginPath();
 ctx.transform(1, 0, -1.4, 1,0,0);
 ctx.fillRect(940, 0, 100,100)
 
 ctx.transform(1, 0, 2.8, 1, 0,0);
+
 ctx.fillRect(940, 0, 100,100)
+
 
 
 //translate//
@@ -434,7 +436,7 @@ ctx.fillRect(20, -20, 100, 50);
 
 ctx.closePath();
 
-/rotate/
+//rotate//
 ctx.beginPath();
 
 
@@ -448,23 +450,23 @@ ctx.translate(-300, -250);
 ctx.fillStyle = "#A0522D";
 ctx.fillRect(290, 418, 15, 50);
 
-/clippingPath/
+//clippingPath//
 ctx.beginPath();
     ctx.rect(100, 150, 200, 20);
     ctx.rect(150, 100, 20, 130);
     ctx.closePath();
 
-    // Defina o clipping path
+    
     ctx.clip();
 
-    // Preencha o fundo do canvas
+    
     ctx.fillStyle = '#8B4513';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Limpe o clipping path
+  
     ctx.restore();
 
-    // Desenhe as linhas da cruz
+ 
     ctx.strokeStyle = '#D2691E';
     ctx.lineWidth = 5;
     ctx.beginPath();
@@ -474,33 +476,64 @@ ctx.beginPath();
     ctx.lineTo(150, 300);
     ctx.stroke();
 
-/personagem/
+    
+    //scale//
 ctx.beginPath();
-var img = document.getElementById("nos");
-img.src ='img/stop.png';
-let imgRotation = Math.PI * 7/4.7
-let posX =370
-let posY = 600
-let velocidade =50
-img.onload = function(){
-	ctx.drawImage(img,posX,posY);
+ctx.scale(100, 500);
+ctx.fillStyle= "#800000";
+ctx.fillRect(1001, 800, 12, 50);
 
+ctx.setTransform(1,0,0,1,0,0);
+ctx.closePath();
+
+
+//personagem//
+ctx.beginPath();
+var x = canvas.width / 2;
+var y = canvas.height / 2;
+var dx = 2;
+var dy = 2;
+var img = new Image();
+img.src = 'img/stop.png';
+
+document.addEventListener('keydown', keyPush);
+
+function keyPush(event) {
+ if (event.keyCode == 37) {
+    dx = -2;
+    dy = 0;
+ }
+ if (event.keyCode == 38) {
+    dx = 0;
+    dy = -2;
+ }
+ if (event.keyCode == 39) {
+    dx = 2;
+    dy = 0;
+ }
+ if (event.keyCode == 40) {
+    dx = 0;
+    dy = 2;
+ }
 }
- 
- 
- 
-ctx.rotate(imgRotation);
 
-window.addEventListener('keydown',(event)=>{
-		if(event.keyCode == 65){
-			posX-=velocidade
-		}else if(event.keyCode == 68){
-			posX+=velocidade
-		}else if(event.keyCode == 87){
-			posY-=velocidadew
-		}else if(event.keyCode == 83){
-			posY+=velocidade
-		}
-		
- })
+function drawImage() {
+ ctx.clearRect(0, 0, canvas.width, canvas.height);
+ ctx.drawImage(img, x, y);
+
+ 
+}
+
+function moveImage() {
+ x += dx;
+ y += dy;
+}
+
+function game() {
+ moveImage();
+ drawImage();
+}
+
+setInterval(game, 1000 / 60);
+
 
