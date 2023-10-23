@@ -1,88 +1,136 @@
 # Projeto Cena Canvas
-Esse projeto é uma cena criada no canvas utilizando JavaScript. Neste repositório, estão os arquivos para o projeto da cena no Canvas, contendos elementos pedidos e ensinados em aula. Nossa criação se baseia no jogo anterior que criamos (https://github.com/LehLapa/HeavenAndBack-LP) Heaven And Back - LP na Game Engine Unity. 
+Esse projeto é uma cena criada no canvas utilizando JavaScript. Neste repositório, estão os arquivos para o projeto da cena no Canvas, contendos elementos pedidos e ensinados em aula. Nossa criação se baseia no jogo anterior que elaboramos (https://github.com/LehLapa/HeavenAndBack-LP) Heaven And Back - LP na Game Engine Unity. 
 A cena contém um cenário e nosso personagem principal que explora livremente o espaço. O canvas apresenta conceitos de Translação, Rotação, Escala, Transform e Clipping Path.
 # Criadores: Letícia Lapa e Robert Caio 
 # Diagrama de Classe - Canvas
-![Diagrama de Classe Canvas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/191c1672-b31d-4699-8da1-e93d47d5b984)
+![Diagrama de Classe Canvas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/367239e1-cdc4-471f-978d-f66866466811)
+
 # Cenário
-![Cenario com Player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/4842312a-62be-4b02-8ff4-be6fdb4b67cf)
+![Cenario com Player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/21c011b0-9129-4f25-b4cd-6450c5cc40f4)
+
 # Introdução ao desenvolvimento da criação do cenário
 Para a criação do cenário, fizemos as alterações do background para a cor verde, representando nossa grama. Assim iniciamos, fizemos os scripts para desenhos da cerca, igraja, asfalto, árvores, pedras e seus respectivos detalhes.
 **- Cerca e seu Script para criação.**
 
- ![Cerca](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/5e256e0b-43eb-47d4-aa91-75ea5901f365)
+![Cerca](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/18822a88-03a1-4df1-ace2-f87f343f4b5b)
+
 **- Script**
  
-![Cenário - Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/341b19de-7c4a-4c71-a9de-4a9a5c02d645)
-![Cenário - Linha Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/68cbc060-f296-4298-9a97-12ec9bacb758)
+![Cenário - Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/4248c71b-36b5-4857-be22-8d5adbd1b967)
 
-**- Adicionando igreja, seus detalhes (contém Script do mesmo).**
+![Cenário - Linha Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/6f73478f-3885-4f2d-af43-4a391aaf8e86)
 
-![Cerca e Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/54c27f82-e2d3-4191-b93a-ce51c8869dac)
+- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
+
+**- Adicionando igreja e seus detalhes (contém Script do mesmo).**
+
+![Cerca e Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/edfa29d4-733a-4208-86c8-8658af3c27a4)
 
 **-Script**
 
-![Cenário Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/38816f7c-a63c-4116-852c-cad51801f2ea)
+![Cenário Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/7e3ce3c7-e1a4-4e77-92d4-5b31f352eec9)
 
-![Cenário - Cruz da Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3ddb8d04-09c6-44bb-aa73-1e70dfb7b869)
+![Cenário - Cruz da Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/7c145aba-d457-45cd-98ca-c67503ef77a2)
 
-![Cenário - Porta](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/57851761-06f1-4ac0-91a4-a10b745c7dd9)
+![Cenário - Porta](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/197f8d48-42c4-42d1-b49d-69378e975583)
 
-![Cenário - Detalhe Porta](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/e16388a2-ad86-45a7-8395-c62adca4cf40)
+![Cenário - Detalhe Porta](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2105c2c3-5aa9-4264-b9a4-12c74d2cb357)
 
-![Cenário - Telhado](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/ed3aef51-9f79-4b07-9416-87c0c643ef72)
+![Cenário - Telhado](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/dc8556f9-d533-4271-ba5b-22c0c9c4cdd5)
 
-![Cenário - Janela](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/fedf618e-ab00-47e2-b6e4-8d603ac52d17)
+![Cenário - Janela](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/42d54f91-f489-413e-814a-ee0e88b4dcb8)
 
-![Cenário - Detalhes Janelas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f69c7ea0-9283-4335-bb59-ad9b5c0968a0)
+![Cenário - Detalhes Janelas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/67f6038a-6b8f-4935-8f06-7c5786701378)
 
+- Script **arc** utilizado para desenhar círculos, como a janela da igreja.
+- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
+  
 **- Complementando cenário com asfalto e detalhes (contém Script do mesmo).**
  
-![Cerca, Igreja e asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f00c63f9-6efc-4e08-968e-82cebe8ea136)
+![Cerca, Igreja e asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/587a4272-a4d7-4c96-b8d2-1154ef071a91)
 
 **- Scripts**
 
-![Cenário - Asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/50e53930-280c-41fb-995b-a02b852b962e)
+![Cenário - Asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/1e6223c4-53b6-484f-a451-b92f78a79142)
 
-![Cenário - Calçada](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3cace006-d507-4975-942e-363c7b6f607b)
+![Cenário - Calçada](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f663581b-163c-4ba8-9c3d-0f3e3c38d184)
 
-![Cenário = Faixa na Rua](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3540a07b-843a-4d28-b6e6-2d87c1595f35)
+![Cenário = Faixa na Rua](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/e1d89ff8-cdc1-4ab4-b449-ca0fd117d3ba)
 
-![Cenário - Cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/8ce31a8d-c87e-4c9c-8c97-114e38412d19)
+![Cenário - Cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/53f917e5-e112-4190-a441-b3924ceb0964)
 
-![Cenário - Linha cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f6e96345-034e-4001-8c48-0536564ab9ce)
+![Cenário - Linha cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/1ea61e6e-1914-4483-9678-382fc3c41dc6)
 
+- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
+ 
 **- Adicionando árvores e finalizando (contém Script do mesmo).**
 
-![Cenario com arvores](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/9a0a8b43-6f89-4b8b-9a4c-b721c283703d)
+![Cenario com arvores](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f146e339-60d3-4214-a820-5f051bea3de9)
 
 **- Scripts**
 
-![Cenário - Tronco](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/1869812f-2fab-495b-b246-46184dcb9912)
+![Cenário - Tronco](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f6fc28d9-1b61-42ce-9889-fe9636906be7)
 
-![Cenário - Folhas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/e3c7ada2-94f4-4f26-ba98-7a3c2994bbe9)
+![Cenário - Folhas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/238b842a-6e86-4540-8826-4070e7ffa409)
+
+- O **quadratic curve** foi utilizado para criar as folhas das árvores.
 
 **- Finalizando (contém Script do mesmo).**
 
- ![Cenario finalizando](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/d561f4c8-ae4f-4242-a34d-90ac9dca6612)
+![Cenario finalizando](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/864d084b-9a25-4c1a-8aac-e327ee339855)
 
  **- Scripts**
 
-![Cenário - Pedras](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/24810c09-e034-4c8f-8ff9-dbe20e5dfa09)
+![Cenário - Pedras](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f2d5c3e2-947a-43bc-a39e-f0d21212fc81)
 
-![Cenário - Furos Detalhes](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2a5fd4cf-783e-44f0-812f-cd927ed90d4e)
+![Cenário - Furos Detalhes](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/66cee029-aef8-4392-a2cd-e0ecf374b990)
+
+- Script **arc** utilizado para desenhar círculos, como a janela da igreja.
+- Scripts como **LineTo** e **MoveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
+- O **quadratic curve** foi utilizado para criar as folhas das árvores.
 
 # Iniciando Conceitos 
 
-Nesse momento, vamos inicar o conceito de rotação para movimentos de algumas formas no canvas. 
+# Rotate (Rotação)
+Nesse momento, vamos inicar o conceito de rotação para movimentar a cruz menor no canto superior esquerdo da tela.
 
-# Rotação
 **- Script**
 
-![Script Rotate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/3209f49c-e36c-4074-a0c8-0a4caf9098cf)
+![Script Rotate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/8066c85d-e4c8-4d61-b6d9-117ec3477870)
 
-# Translação
+# Translate (Translação)
+Nesse recurso, vamos inicar o conceito de translação para movimentar os quadrados localizados na extremidades do canto superior do canvas.
+
 **- Script**
 
-![Script Translate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/cb52ed01-2903-4d03-a4bd-a4438612e3db)
+![Script Translate](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/160929fd-0e12-4b85-8c6a-f405afe2c3fa)
+
+# Transform (Transformação)
+Utilizamos para fazer o desenho em X no telhado da igreja, localizado na parte superior do canvas.
+
+**- Script**
+
+![Script Transform](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/55e7860c-656c-46a2-aed3-c4a5656d3036)
+
+# Clipping Path 
+Optamos por fazer um recorde na cena em formato de cruz, localizado  na cerca no canto superior esquerdo próximo a igreja.
+
+![clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/2855745e-c40d-4dd0-8692-21a414c9171a)
+
+**- Script**
+
+![Script Clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/905ab47c-9bd9-4695-91e6-e9f070b23c0e)
+
+# Movimentação do Player 
+Avisos: A movimentação do Player apenas funciona quando o código do cenário não esta habilitado. Sua movimentação está funcionando pelas Teclas de Direção ou Arrows Keys. 
+
+**- Script**
+
+![Script move player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/206815df-6710-428e-9efe-94271e03c2ad)
+
+# Escale (Escala)
+Aviso: Não foi possível adicionar o escale em nosso projeto. 
+
+
+
 
