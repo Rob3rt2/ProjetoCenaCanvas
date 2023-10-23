@@ -74,7 +74,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 # Iniciando Conceitos 
 
-Nesse momento, vamos inicar o conceito de de rotação para movimentos de algumas formas no canvas. 
+Nesse momento, vamos inicar o conceito de rotação para movimentos de algumas formas no canvas. 
 
 **- Script**
 
