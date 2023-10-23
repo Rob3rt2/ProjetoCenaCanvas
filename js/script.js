@@ -484,7 +484,7 @@ ctx.fillStyle= "#800000";
 ctx.fillRect(1001, 800, 12, 50);
 
 ctx.setTransform(1,0,0,1,0,0);
-ctx.closePath();
+
 
 
 //personagem//
