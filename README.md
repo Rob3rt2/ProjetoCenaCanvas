@@ -128,7 +128,8 @@ Optamos por fazer um recorde na cena em formato de cruz, localizado na cerca no 
 ![Script Clipping path](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/905ab47c-9bd9-4695-91e6-e9f070b23c0e)
 
 # Movimentação do Player 
-**Avisos:** A movimentação do Player apenas funciona quando o código do cenário não esta habilitado. Sua movimentação está funcionando pelas Teclas de Direção ou Arrows Keys. 
+
+A movimentação do Player se orienta pelas Teclas de Direção ou Arrows Keys. 
 
 **- Script**
 
