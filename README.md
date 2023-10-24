@@ -5,6 +5,10 @@ A cena contém um cenário e nosso personagem principal explora livremente o amb
 # Diagrama de Classe - Canvas
 ![Diagrama de Classe Canvas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/367239e1-cdc4-471f-978d-f66866466811)
 
+# Vídeo
+Segue link do vídeo postado no Youtube para análise e avaliação.
+- https://youtu.be/9QMPROPQlvk
+
 # GitBash
 Disponível um dos códigos utilizados para fazer o commit no GitBash.
 
