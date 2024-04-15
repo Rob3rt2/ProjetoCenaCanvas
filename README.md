@@ -23,8 +23,7 @@ Disponível um dos códigos utilizados para fazer o commit no GitBash.
 ![Cenario com Player](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/21c011b0-9129-4f25-b4cd-6450c5cc40f4)
 
 # Introdução ao desenvolvimento da criação do cenário
-Para a criação do cenário, fizemos as alterações do background para a cor verde, representando nossa grama. Assim iniciamos, fizemos os scripts para desenhos da cerca, igreja, asfalto, árvores, pedras e seus respectivos detalhes.
-
+Para a criação do cenário, fizemos as alterações do background para a cor verde, representando nossa grama. Assim iniciamos, fizemos os scripts para desenhos da cerca, igreja, asfalto, árvores, pedras e seus respectivos detalhes. Todo passo a passo de desenvolvimento contém os Scripts correspondentes.
 - **Cerca e seu Script para criação.**
 
 ![Cerca](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/18822a88-03a1-4df1-ace2-f87f343f4b5b)
@@ -36,8 +35,8 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 ![Cenário - Linha Cerca Left](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/6f73478f-3885-4f2d-af43-4a391aaf8e86)
 
 - Scripts como **lineTo** e **moveTo** foram utilizados para desenhar as cercas, a igreja, árvores, troncos e maior parte dos elementos que compõe a cena.
-
-- **Adicionando igreja e seus detalhes (contém Script do mesmo).**
+##
+- **Adicionando igreja e seus detalhes.**
 
 ![Cerca e Igreja](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/edfa29d4-733a-4208-86c8-8658af3c27a4)
 
@@ -59,8 +58,8 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 
 - Script **arc** utilizado para desenhar círculos, como a janela da igreja.
 - Scripts como **lineTo** e **moveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
-  
-- **Complementando cenário com asfalto e detalhes (contém Script do mesmo).**
+##
+- **Complementando cenário com asfalto e detalhes.**
  
 ![Cerca, Igreja e asfalto](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/587a4272-a4d7-4c96-b8d2-1154ef071a91)
 
@@ -77,8 +76,8 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 ![Cenário - Linha cerca Right](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/1ea61e6e-1914-4483-9678-382fc3c41dc6)
 
 - Scripts como **lineTo** e **moveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
- 
-- **Adicionando árvores e finalizando (contém Script do mesmo).**
+##
+- **Adicionando árvores e finalizando.**
 
 ![Cenario com arvores](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/f146e339-60d3-4214-a820-5f051bea3de9)
 
@@ -89,8 +88,8 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 ![Cenário - Folhas](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/238b842a-6e86-4540-8826-4070e7ffa409)
 
 - O **quadratic curve** foi utilizado para criar as folhas das árvores.
-
-- **Finalizando (contém Script do mesmo).**
+##
+- **Finalizando.**
 
 ![Cenario finalizando](https://github.com/Rob3rt2/ProjetoCenaCanvas/assets/128638269/864d084b-9a25-4c1a-8aac-e327ee339855)
 
@@ -103,7 +102,7 @@ Para a criação do cenário, fizemos as alterações do background para a cor v
 - Script **arc** utilizado para desenhar círculos, como a janela da igreja.
 - Scripts como **lineTo** e **moveTo** foram utilizados para desenhar as cercas, a igreja, árvores e maior parte dos elementos que compõe a cena.
 - O **quadratic curve** foi utilizado para criar as folhas das árvores.
-
+##
 # Iniciando Conceitos 
 
 # Rotate (Rotação)
